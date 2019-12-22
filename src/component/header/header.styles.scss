@@ -1,0 +1,35 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color: whitesmoke;
+    
+    
+    .title{
+        
+        margin-left: 5%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 10px;
+        color: yellowgreen;
+        font-size: 40px;
+        text-decoration: none;
+    }
+   
+    .options {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+   
+        .option {
+          padding: 10px 15px;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+    
+    }
